@@ -1,0 +1,9 @@
+{
+  "name": "singh577.github.io",
+  "version": "1.0.0",
+  "description": "Website for Comedy",
+  "main": "index.js",
+  "repository": "git@github.com:singh577/singh577.github.io.git",
+  "author": "Sukhjit Singh",
+  "license": "MIT"
+}
