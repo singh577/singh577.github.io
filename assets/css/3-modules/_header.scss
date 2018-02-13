@@ -1,24 +1,24 @@
 /* The sidebar menu */
 header{
     height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 250px; /* Set the width of the sidebar */
+    width: 350px; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    background-color: #ccc; /* Black */
+    background-color: #ccc; /* Dark grey */
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
     /* The navigation menu links */
     nav {
+        margin: 30px 30px 30px 26px;
         a {
-            padding: 6px 8px 6px 16px;
+            padding: 3px 8px 3px 16px;
             text-decoration: none;
             color: #818181;
-            font-size: 14px;
+            font-size: 18px;
             font-weight: 700;
             text-transform: uppercase;
-            font-size: 25px;
             display: block;
             /* When you mouse over the navigation links, change their color */
             &:hover{
@@ -26,9 +26,28 @@ header{
             }
         }
     }
+    h1{
+        text-align: left;
+        font-size: 38px;
+        font-weight: 700;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        margin: 10px 10px 5px 40px;
+    }
+    .kicker{
+        text-align: left;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: white;
+        line-height: 1;
+        margin: 5px 10px 5px 38px;
+    }
 }
 
 /* Page content */
-.main{
-  margin-left: 250px; /* Same as the width of the sidenav */
+body{
+    position: relative;
+    margin-left: 350px; /* Same as the width of the sidenav */
 }
