@@ -2,17 +2,14 @@
 ---
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>Sukhjit Singh</title>
-		<meta name="apple-mobile-web-app-capable" content="yes">
-		<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel='shortcut icon' href="/assets/img/favicons/favicon.ico">
-		<link rel="stylesheet" href="/assets/css/main.css">
-		<!--{if lt IE 9}><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><!{endif}-->
-	</head>
+{% include head.html %}
 	<body>	
-		{% include header.html %}
+		<div id="wrapper">
+			{% include sidebar.html %}
+			
+			{% include topPageContent.html %}
 
+			{% include bottomPageContent.html %}
+		</div>
 	</body>
 </html>
