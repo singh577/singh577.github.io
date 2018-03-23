@@ -7,31 +7,40 @@
 	<meta name="google-site-verification" content="5XAClTk6Q6a9gPyy4WTLsQUQryEe1pvnizuz42Bzsm0" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel='shortcut icon' href="/assets/img/favicons/favicon.ico">
-	<link rel="stylesheet" href="/assets/css/main.css">
 	<script src="/assets/js/jquery-3.3.1.min.js"></script>
+	<script src="/assets/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="/assets/css/main.css">
 	<!--{if lt IE 9}><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><!{endif}-->
 </head>
 <body>
     <div id="wrapper">
         <div id="sidebar-wrapper">
-    <ul class="sidebar-nav">
-        <li class="sidebar-brand">
-            <a href="/">Sukhjit Singh</a>
-            <p class="kicker">Comedian // Artist // Engineer</p>
-        </li>
-        <li>
-            <a href="/bio">Bio</a>
-        </li>
-        <li>
-            <a href="/clips">Clips</a>
-        </li>
-        <li>
-            <a href="/work">Work</a>
-        </li>
-        <li>
-            <a href="/contact">Contact Me</a>
-        </li>
-    </ul>
+<div class="sidebar-nav" id="MainMenu">
+    <div class="sidebar-brand">
+        <a href="/">Sukhjit Singh</a>
+    </div>
+    <div class="list-group panel">
+        <a href="#comedianMenu" class="list-group-item" data-toggle="collapse" data-parent="#MainMenu">Comedian<span class="caret"></span></a>
+        <div class="collapse" id="comedianMenu">
+          <a href="/comedy/bio" class="list-group-item list-group-submenu">Bio</a>
+          <a href="/comedy/clips" class="list-group-item list-group-submenu">Clips</a>
+          <a href="/comedy/headshots" class="list-group-item list-group-submenu">Headshots</a>
+          <a href="/comedy/testimonials" class="list-group-item list-group-submenu">Testimonials</a>
+        </div>
+        <a href="#artistMenu" class="list-group-item" data-toggle="collapse" data-parent="#MainMenu">Artist</a>
+        <div class="collapse" id="artistMenu">
+            <a href="/artwork" class="list-group-item list-group-submenu">Artwork</a>
+        </div>
+        <a href="#engineerMenu" class="list-group-item" data-toggle="collapse" data-parent="#MainMenu">Engineer</a>
+        <div class="collapse" id="engineerMenu">
+            <a href="/engineer/bio" class="list-group-item list-group-submenu">Bio</a>
+            <a href="/engineer/resume" class="list-group-item list-group-submenu">Resume</a>
+            <a href="/engineer/work" class="list-group-item list-group-submenu">Work</a>
+        </div>
+        <a href="/contact" class="list-group-item" id="contactAncho">Contact Me</a>
+    </div>
+</div>
+
 <!--     <a href="/bio">
     <img src="/assets/img/linkedInLogo.svg">
     </a> -->
@@ -41,9 +50,21 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12">
-            	<a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
+            	<a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Menu</a>
 
-            <p>Welcome to my website. It's still in development :)</p>
+            <div class="container">
+                <div class="card-columns">
+                    <div class="card">
+                        <img class="img-fluid" src="/assets/img/bioPic01.jpg" alt="Card image cap">
+                    </div>
+                    <div class="card">
+                        <img class="img-fluid" src="/assets/img/bioPic02.jpg" alt="Card image cap">
+                    </div>
+                    <div class="card">
+                        <img class="img-fluid" src="/assets/img/bioPic03.jpg" alt="Card image cap">
+                    </div>
+                </div>
+            </div>
                     </div>
         </div>
     </div>

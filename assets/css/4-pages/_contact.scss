@@ -1,7 +1,19 @@
-span{
-	margin-left: 40px;
-	a{
-		font-size: 40px;
-		color: rgba(0, 0, 0, 0.7);
-	}
+@media (min-width: 544px) {
+    a.email{font-size: 24px;}
+}
+
+@media (min-width: 768px) {
+    a.email{font-size: 32px;}
+}
+
+@media (min-width: 992px) {
+    a.email{font-size: 40px;}
+}
+
+@media (min-width: 1200px) {
+    a.email{font-size: 48px;}
+}
+
+a.email{
+	margin: 40px;
 }

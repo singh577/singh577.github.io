@@ -6705,22 +6705,19 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 .sidebar-nav li a:focus {
   text-decoration: none; }
 
-.sidebar-nav > .sidebar-brand {
+.sidebar-brand {
   height: 80px;
-  font-size: 18px;
-  line-height: 20px; }
-
-.sidebar-nav > .sidebar-brand p {
-  font-size: 12px;
-  line-height: 10px; }
+  font-size: 32px;
+  line-height: 20px;
+  margin-top: 40px; }
 
 .sidebar-nav > .sidebar-brand a {
   margin: 20px;
   color: #999999; }
 
 .sidebar-nav > .sidebar-brand a:hover {
-  color: #fff;
-  background: none; }
+  background: none;
+  text-decoration: none; }
 
 @media (min-width: 768px) {
   #wrapper {
@@ -6741,7 +6738,33 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 
   #wrapper.toggled #page-content-wrapper {
     position: relative;
-    margin-right: 0; } }
+    margin-right: 0; }
+
+  #menu-toggle {
+    display: none; } }
+@media (max-width: 768px) {
+  #menu-toggle {
+    display: block; } }
+div.col-md-4 {
+  padding-left: 0px;
+  padding-right: 0px; }
+
+.panel-wrapper > .col-md-4 {
+  float: none;
+  display: inline-block; }
+
+.list-group-item {
+  background-color: #cccccc;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem 0.75rem 1.5rem; }
+
+.list-group-submenu {
+  margin-left: 40px; }
+
+#contactAnchor {
+  font-size: 20px; }
+
 img {
   display: block;
   max-width: 100%;
@@ -6751,8 +6774,17 @@ img {
 p {
   margin: 10px; }
 
-span {
-  margin-left: 40px; }
-  span a {
-    font-size: 40px;
-    color: rgba(0, 0, 0, 0.7); }
+@media (min-width: 544px) {
+  a.email {
+    font-size: 24px; } }
+@media (min-width: 768px) {
+  a.email {
+    font-size: 32px; } }
+@media (min-width: 992px) {
+  a.email {
+    font-size: 40px; } }
+@media (min-width: 1200px) {
+  a.email {
+    font-size: 48px; } }
+a.email {
+  margin: 40px; }
