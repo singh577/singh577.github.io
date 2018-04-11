@@ -1,32 +1,18 @@
 ---
 ---
-
-<!DOCTYPE html>
-<html lang="en">
-{% include head.html %}
-<body>
-    <div id="wrapper">
-        {% include sidebar.html %}
-            
-        {% include topPageContent.html %}
-            <div class="container">
-                <div class="card-columns">
-                    <div class="card">
-                        <img class="img-fluid" src="/assets/img/bioPic01.jpg" alt="Card image cap">
-                    </div>
-                    <div class="card">
-                        <img class="img-fluid" src="/assets/img/bioPic02.jpg" alt="Card image cap">
-                    </div>
-                    <div class="card">
-                        <img class="img-fluid" src="/assets/img/bioPic03.jpg" alt="Card image cap">
-                    </div>
-                </div>
+{% include topPageContent.html %}
+    <div class="container">
+        <div class="card-columns">
+            <div class="card">
+                <img class="img-fluid" src="/assets/img/bioPic01.jpg" alt="Card image cap">
             </div>
-        {% include bottomPageContent.html %}
+            <div class="card">
+                <img class="img-fluid" src="/assets/img/bioPic02.jpg" alt="Card image cap">
+            </div>
+            <div class="card">
+                <img class="img-fluid" src="/assets/img/bioPic03.jpg" alt="Card image cap">
+            </div>
+        </div>
     </div>
-    <script type="text/javascript" src="/assets/js/functions.js"></script>
-</body>
-</html>
-   
-
+{% include bottomPageContent.html %}
 
