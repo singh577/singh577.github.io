@@ -6641,6 +6641,12 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   .hidden-print {
     display: none !important; } }
 
+.card {
+  background-color: #212121; }
+
+body {
+  background-color: #212121; }
+
 #wrapper {
   padding-left: 0;
   -webkit-transition: all 0.5s ease;
@@ -6659,7 +6665,7 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   height: 100%;
   margin-left: -250px;
   overflow-y: auto;
-  background: #cccccc;
+  background: #212121;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
@@ -6677,14 +6683,14 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   position: absolute;
   margin-right: -250px; }
 
-/* Sidebar Styles */
 .sidebar-nav {
   position: absolute;
   top: 0;
   width: 250px;
   margin: 0;
   padding: 0;
-  list-style: none; }
+  list-style: none;
+  font-family: 'Nunito', serif; }
 
 .sidebar-nav li {
   text-indent: 20px;
@@ -6693,8 +6699,7 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 .sidebar-nav li a {
   display: block;
   text-decoration: none;
-  color: #999999;
-  text-transform: uppercase; }
+  color: #999999; }
 
 .sidebar-nav li a:hover {
   text-decoration: none;
@@ -6754,16 +6759,18 @@ div.col-md-4 {
   display: inline-block; }
 
 .list-group-item {
-  background-color: #cccccc;
+  background-color: #212121;
   color: white;
   border: none;
-  padding: 0.75rem 1.5rem 0.75rem 1.5rem; }
+  padding: 0.75rem 1.5rem 0.75rem 1.5rem;
+  text-transform: uppercase; }
 
 .list-group-submenu {
   margin-left: 40px; }
 
 #contactAnchor {
-  font-size: 20px; }
+  font-size: 30px;
+  text-transform: uppercase; }
 
 img {
   display: block;
@@ -6772,7 +6779,8 @@ img {
   margin: auto; }
 
 p {
-  margin: 10px; }
+  margin: 10px;
+  color: #f9ed62; }
 
 @media (min-width: 544px) {
   a.email {
