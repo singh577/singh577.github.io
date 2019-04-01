@@ -6778,9 +6778,18 @@ img {
   height: auto;
   margin: auto; }
 
+figcaption {
+  margin: 10px;
+  color: #000;
+  text-align: left;
+  max-width: 50%;
+  font-size: 12px; }
+
 p {
   margin: 10px;
-  color: #f9ed62; }
+  color: #fff;
+  text-align: left;
+  max-width: 50%; }
 
 @media (min-width: 544px) {
   a.email {
@@ -6796,3 +6805,6 @@ p {
     font-size: 48px; } }
 a.email {
   margin: 40px; }
+
+.calendar-event {
+  width: 100%; }
