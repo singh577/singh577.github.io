@@ -6806,5 +6806,10 @@ p {
 a.email {
   margin: 40px; }
 
+iframe {
+  display: block;
+  margin: auto;
+  padding: 10px; }
+
 .calendar-event {
   width: 100%; }
